@@ -4,8 +4,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #d5d4d4;
-  background-image: url('acets/bg.jpg');
-  background-size: cover;
+  background-image: url('acets/bg.png');
+  background-size:auto;
 }
 
 code {
