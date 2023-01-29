@@ -1,4 +1,5 @@
 import React from "react";
+// import App from "../../App";
 import "./current-weather.css";
 
 const CurrentWeather = ({ data }) => {
@@ -19,9 +20,9 @@ const CurrentWeather = ({ data }) => {
       <div className="bottom">
         <p className="temperature">{Math.round(data.main.temp)}°C</p>
         <div className="details">
-          <div className="parameter-row">
+          {/* <div className="parameter-row">
             <span className="parameter-label">Details</span>
-          </div>
+          </div> */}
           <div className="parameter-row">
             <span className="parameter-label">Feels like</span>
             <span className="parameter-value">
@@ -42,6 +43,8 @@ const CurrentWeather = ({ data }) => {
           </div>
         </div>
       </div>
+
+   
     </div>
   );
 

@@ -1,4 +1,30 @@
 .container {
-  max-width: 1000px;
-  margin: 20px auto;
+  max-width: 800px;
+  /* margin: 20px auto; */
+  /* background-color: black; */
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+}
+.whole{
+width: 100%;
+min-height: 100vh;
+margin: 0;
+background-image: url(./acets/normal.png);
+background-size: contain;
+}
+
+.cold{
+  background-image: url(./acets/bg2.jpg);
+  background-size: contain;
+}
+
+.modrate{
+  background-image: url(./acets/bg3.jpg);
+  background-size:cover;
+}
+
+.hot{
+  background-image: url(./acets/sunny.gif);
+  background-size: contain;
 }
